@@ -1,5 +1,8 @@
 # @perrylink/dsh-checkers-suite
 
+> **पैकेज नाम:** `@perrylink/dsh-checkers` इंस्टॉल करें (वर्तमान shim)। `@perrylink/dsh-checkers-suite` पुराना alias है; अब यह यहाँ इंगित करता है।
+
+
 **53-अनुपालन प्लगइन PerryLink अनुपालन सूट** के लिए एक-कमांड इंस्टॉलर।
 
 ```sh

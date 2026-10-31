@@ -1,5 +1,7 @@
 # @perrylink/dsh-checkers-suite
 
+> **包名：** 请安装 `@perrylink/dsh-checkers`（当前 shim）。`@perrylink/dsh-checkers-suite` 是已弃用别名，现已指向这里。
+
 **53 个 PerryLink 合规核查器**的一条命令安装包。
 
 ```sh

@@ -1,5 +1,8 @@
 # @perrylink/dsh-checkers-suite
 
+> **Nome do pacote:** instale `@perrylink/dsh-checkers` (o shim atual). `@perrylink/dsh-checkers-suite` é um alias obsoleto; agora aponta para cá.
+
+
 Instalador de um comando para a **suíte de 53 plugins de conformidade** da PerryLink.
 
 ```sh

@@ -1,11 +1,11 @@
 {
-  "name": "@perrylink/dsh-checkers-suite",
-  "version": "0.1.0",
-  "description": "One-command installer for the 53-plugin PerryLink compliance suite: installs every compliance plugin and inserts all 53 Cordis rows in one bundle layer.",
+  "name": "dsh-check-pack",
+  "version": "0.2.0",
+  "description": "One-command installer for the 53-checker PerryLink compliance suite: installs every checker and inserts all 53 Cordis rows in one bundle layer.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PerryLink/dsh-checkers.git"
+    "url": "git+https://github.com/PerryLink/dsh-check-pack.git"
   },
   "type": "module",
   "dsh": {
@@ -86,5 +86,9 @@
   "keywords": [
     "dsh-plugin",
     "dsh-bundle"
-  ]
+  ],
+  "homepage": "https://github.com/PerryLink/dsh-check-pack#readme",
+  "bugs": {
+    "url": "https://github.com/PerryLink/dsh-check-pack/issues"
+  }
 }

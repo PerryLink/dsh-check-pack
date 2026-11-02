@@ -1,16 +1,17 @@
-# @perrylink/dsh-checkers-suite
+# dsh-check-pack
 
-> **Nome do pacote:** instale `@perrylink/dsh-checkers` (o shim atual). `@perrylink/dsh-checkers-suite` é um alias obsoleto; agora aponta para cá.
+> **Renamed from [`@perrylink/dsh-checkers`](https://www.npmjs.com/package/@perrylink/dsh-checkers).** The old scoped package is deprecated; install **`dsh-check-pack`**.
 
+> **Nome do pacote:** instale `dsh-check-pack` (o shim atual). `dsh-check-pack` é um alias obsoleto; agora aponta para cá.
 
 Instalador de um comando para a **suíte de 53 plugins de conformidade** da PerryLink.
 
 ```sh
-# npm (once the new-package 2FA approval is available)
-dsh plugin --profile web add @perrylink/dsh-checkers-suite
+# npm
+dsh plugin --profile web add dsh-check-pack
 
 # available now: the GitHub git channel
-dsh plugin --profile web add github:PerryLink/dsh-checkers
+dsh plugin --profile web add github:PerryLink/dsh-check-pack
 ```
 
 Instala todos os plugins de conformidade e insere as 53 linhas do Cordis por meio de uma única
@@ -22,6 +23,6 @@ licitações, HSE, medicina, jurídico, governo, manufatura). Cada verificador a
 aponta diferenças e não emite conclusão jurídica/médica/aduaneira. A lista exata e
 as versões estão em `checkers.json`.
 
-**Desinstalar:** `dsh plugin --profile web remove @perrylink/dsh-checkers-suite`.
+**Desinstalar:** `dsh plugin --profile web remove dsh-check-pack`.
 
 Apache-2.0. Regenere com `node build.mjs`.

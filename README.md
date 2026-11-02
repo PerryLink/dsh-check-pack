@@ -1,22 +1,21 @@
-# @perrylink/dsh-checkers-suite
+# dsh-check-pack
 
-> **Package name:** install `@perrylink/dsh-checkers` (the current shim). `@perrylink/dsh-checkers-suite` is a deprecated alias; it now points here.
-
+> **Renamed from [`@perrylink/dsh-checkers`](https://www.npmjs.com/package/@perrylink/dsh-checkers).** The old scoped package is deprecated; install **`dsh-check-pack`**.
 
 One-command installer for the **53-plugin PerryLink compliance suite**.
 
 ```sh
-# npm (once the new-package 2FA approval is available)
-dsh plugin --profile web add @perrylink/dsh-checkers-suite
+# npm
+dsh plugin --profile web add dsh-check-pack
 
 # available now: the GitHub git channel
-dsh plugin --profile web add github:PerryLink/dsh-checkers
+dsh plugin --profile web add github:PerryLink/dsh-check-pack
 ```
 
 It installs every compliance plugin and inserts all 53 Cordis rows through one bundle layer.
 
 **npm publication status:** the name is published from this repo under the
-`@perrylink/dsh-checkers-suite` name, but npm currently stages new package
+`dsh-check-pack` name, but npm currently stages new package
 versions for 2FA approval. Use the git channel above until that approval lands.
 Each compliance plugin keeps its own npm name, rule pack, README, and version; this package
 is only the suite entry point.
@@ -26,7 +25,7 @@ legal, government, manufacturing). Every compliance plugin reports differences a
 makes a legal/medical/customs determination. See `checkers.json` for the exact
 list and versions.
 
-**Uninstall:** `dsh plugin --profile web remove @perrylink/dsh-checkers-suite` removes
+**Uninstall:** `dsh plugin --profile web remove dsh-check-pack` removes
 the suite row; remove individual compliance plugin packages separately if you installed
 them directly.
 

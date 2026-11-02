@@ -1,16 +1,17 @@
-# @perrylink/dsh-checkers-suite
+# dsh-check-pack
 
-> **पैकेज नाम:** `@perrylink/dsh-checkers` इंस्टॉल करें (वर्तमान shim)। `@perrylink/dsh-checkers-suite` पुराना alias है; अब यह यहाँ इंगित करता है।
+> **Renamed from [`@perrylink/dsh-checkers`](https://www.npmjs.com/package/@perrylink/dsh-checkers).** The old scoped package is deprecated; install **`dsh-check-pack`**.
 
+> **पैकेज नाम:** `dsh-check-pack` इंस्टॉल करें (वर्तमान shim)। `dsh-check-pack` पुराना alias है; अब यह यहाँ इंगित करता है।
 
 **53-अनुपालन प्लगइन PerryLink अनुपालन सूट** के लिए एक-कमांड इंस्टॉलर।
 
 ```sh
-# npm (once the new-package 2FA approval is available)
-dsh plugin --profile web add @perrylink/dsh-checkers-suite
+# npm
+dsh plugin --profile web add dsh-check-pack
 
 # available now: the GitHub git channel
-dsh plugin --profile web add github:PerryLink/dsh-checkers
+dsh plugin --profile web add github:PerryLink/dsh-check-pack
 ```
 
 यह सभी अनुपालन प्लगइन इंस्टॉल करता है और एक ही bundle परत से सभी 53 Cordis पंक्तियाँ जोड़ता है।
@@ -21,6 +22,6 @@ dsh plugin --profile web add github:PerryLink/dsh-checkers
 सरकार, विनिर्माण)। हर अनुपालन प्लगइन केवल अंतर बताता है, कानूनी/चिकित्सीय/सीमा शुल्क निर्णय नहीं।
 सटीक सूची और संस्करण `checkers.json` में हैं।
 
-**अनइंस्टॉल:** `dsh plugin --profile web remove @perrylink/dsh-checkers-suite`.
+**अनइंस्टॉल:** `dsh plugin --profile web remove dsh-check-pack`.
 
 Apache-2.0. बदलाव के बाद `node build.mjs` चलाएँ।

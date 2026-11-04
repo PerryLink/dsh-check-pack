@@ -12,7 +12,9 @@
     "manifestVersion": 1,
     "bundle": {
       "patch": "./cordis.patch.yml"
-    }
+    },
+    "capabilities": [],
+    "labels": []
   },
   "engines": {
     "node": "^22.19.0 || >=24.0.0",

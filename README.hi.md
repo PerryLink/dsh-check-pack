@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-flow-dark.svg">
-  <img src="docs/assets/dsh-check-pack-flow-light.svg" width="100%" alt="dsh-check-pack इंस्टॉल प्रवाह: dsh plugin add → package.json में 53 सटीक निर्भरताएँ → cordis.patch.yml में 53 insert पंक्तियाँ → 53 dsh-* जाँचकर्ता → node verify.mjs suite OK छापता है; checkers.json ही id/name/version का एकमात्र स्रोत है">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-hero-en-dark.webp">
+  <img src="docs/assets/dsh-check-pack-hero-en-light.webp" width="100%" alt="dsh-check-pack बैनर: बाईं ओर प्लगइन का नाम, मूल्य की दो पंक्तियाँ और पाद; दाईं ओर एक-पंक्ति का इंस्टॉल कमांड, सटीक वर्शन वाले तीन असली सदस्य, और एक ही bundle कार्ड में तब्दील होती सदस्य-कार्डों की गड्डी — उसमें package.json, cordis.patch.yml और checkers.json तीनों में 53-53 प्रविष्टियाँ, capabilities खाली और कोई रनटाइम कोड नहीं; दाईं ओर verify सील और नीचे आठ कवर किए गए क्षेत्र">
 </picture>
 
 # dsh-check-pack
@@ -39,6 +39,11 @@ dsh plugin --profile <name> add dsh-check-pack
 निर्भरताओं की सूची ही सदस्य-सूची है — 53 `dsh-*` पैकेज, सटीक संस्करणों पर। हर जाँचकर्ता अपना npm नाम, नियम पैक, README और संस्करण रखता है; अपडेट और कॉन्फ़िगरेशन उसी की ओर होते हैं। यह पैकेज पहले अप्रचलित [`@perrylink/dsh-checkers`](https://www.npmjs.com/package/@perrylink/dsh-checkers) था; अब इसका नाम `dsh-check-pack` है, इसे नए नाम से इंस्टॉल करें।
 
 दायरा चीनी दस्तावेज़ हैं: व्यापार, सीमा शुल्क, निविदा, HSE, चिकित्सा, कानून, सरकार, विनिर्माण। हर जाँचकर्ता केवल सामग्री के भीतर के अंतर बताता है और **कानूनी, चिकित्सीय या सीमा शुल्क निर्णय कभी नहीं देता**; निष्कर्ष समीक्षक के पास रहता है।
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-flow-v5-dark.svg">
+  <img src="docs/assets/dsh-check-pack-flow-v5-light.svg" width="100%" alt="dsh-check-pack संरचना: बाईं ओर सटीक वर्शन वाले आठ सदस्य-पैकेज मध्य के एक bundle कार्ड में सिकुड़ते हैं — package.json की निर्भरताएँ, cordis.patch.yml की 53 insert पंक्तियाँ और checkers.json की 53 id/name/version प्रविष्टियाँ — नीचे node verify.mjs द्वार जाँचता है कि तीनों गिनतियाँ एक हैं, मेल न खाने पर throw; दाईं ओर वही bundle patch Cordis profile की 53 insert पंक्तियों में फैलता है; नीचे की बिंदुदार वापसी बताती है कि प्रकाशित पैकेज अपने आप upstream से नहीं बदलता — दोबारा build और publish करना होता है; पाद में आठ कवर किए गए क्षेत्र हैं">
+</picture>
 
 ## तीन चरणों में शुरुआत
 

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-labelledby="title desc">
+<title id="title">dsh-check-pack bundle lifecycle</title>
+<desc id="desc">Eight sample members of the 53 checker suite, with their exact versions, converge at build time into the three manifests of one bundle: package.json dependencies, the cordis.patch.yml insert rows, and checkers.json. The node verify.mjs gate checks that all three carry the same 53 rows and that versions match; a mismatch throws. At install time the same bundle patch expands into 53 insert rows of a Cordis profile, with no tools, commands, services or routes registered. A dashed return shows the published snapshot does not drift in from upstream: rebuild and republish. The footer lists the eight scope domains.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0.2" y2="1"><stop offset="0" stop-color="#f9f6fd"/><stop offset="1" stop-color="#e4eaf8"/></linearGradient>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#2b2440" flood-opacity="0.13"/></filter>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="1.2" fill="#e7e4f0"/></pattern>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4B67B4"/></marker>
+</defs>
+<rect width="1100" height="660" fill="url(#bg)"/>
+<rect width="1100" height="660" fill="url(#dots)" opacity="0.55"/>
+<text x="44" y="58" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="30" font-weight="700">dsh-check-pack</text>
+<text x="44" y="88" fill="#4d5261" font-family="'Microsoft YaHei','Segoe UI','PingFang SC','Noto Sans CJK SC',sans-serif" font-size="14.5">53 members → 3 manifests → 1 bundle → 53 Cordis rows; one gate keeps the counts equal.</text>
+<rect x="812" y="30" width="244" height="28" rx="14" fill="#ece7f9"/>
+<text x="824" y="48" fill="#4B67B4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5">manifest v1 · capabilities []</text>
+<text x="44" y="116" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11">IN · 53 × package.json + cordis.patch.yml</text>
+<text x="1056" y="116" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">OUT · 53 rows · 0 tools · 0 commands</text>
+<line x1="44" y1="128" x2="1056" y2="128" stroke="#e7e4f0" stroke-width="1" opacity="0.75"/>
+<text x="44" y="150" fill="#8f94a4" font-family="'Microsoft YaHei','Segoe UI','PingFang SC','Noto Sans CJK SC',sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">UPSTREAM · 53 CHECKER REPOS</text>
+<text x="356" y="150" fill="#8f94a4" font-family="'Microsoft YaHei','Segoe UI','PingFang SC','Noto Sans CJK SC',sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">BUILD · node build.mjs → 3 MANIFESTS</text>
+<text x="772" y="150" fill="#8f94a4" font-family="'Microsoft YaHei','Segoe UI','PingFang SC','Noto Sans CJK SC',sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">INSTALL · PROFILE ROWS</text>
+<text x="44" y="172" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11">own package.json + cordis.patch.yml</text>
+<rect x="44" y="186" width="256" height="30" rx="10" fill="#ffffff" stroke="#e6e2ef" stroke-width="1.5"/>
+<text x="56" y="206" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">dsh-aqua-input-check</text>
+<text x="288" y="206" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" text-anchor="end">0.2.11</text>
+<rect x="44" y="221" width="256" height="30" rx="10" fill="#ffffff" stroke="#e6e2ef" stroke-width="1.5"/>
+<text x="56" y="241" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">dsh-archive-check</text>
+<text x="288" y="241" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" text-anchor="end">0.2.9</text>
+<rect x="44" y="256" width="256" height="30" rx="10" fill="#ffffff" stroke="#e6e2ef" stroke-width="1.5"/>
+<text x="56" y="276" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">dsh-bid-ca-precheck</text>
+<text x="288" y="276" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" text-anchor="end">0.2.11</text>
+<rect x="44" y="291" width="256" height="30" rx="10" fill="#ffffff" stroke="#e6e2ef" stroke-width="1.5"/>
+<text x="56" y="311" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">dsh-customs-doc-check</text>
+<text x="288" y="311" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" text-anchor="end">0.2.8</text>
+<rect x="44" y="326" width="256" height="30" rx="10" fill="#ffffff" stroke="#e6e2ef" stroke-width="1.5"/>
+<text x="56" y="346" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">dsh-hazchem-check</text>
+<text x="288" y="346" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" text-anchor="end">0.2.11</text>
+<rect x="44" y="361" width="256" height="30" rx="10" fill="#ffffff" stroke="#e6e2ef" stroke-width="1.5"/>
+<text x="56" y="381" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">dsh-hs-classify</text>
+<text x="288" y="381" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" text-anchor="end">0.2.10</text>
+<rect x="44" y="396" width="256" height="30" rx="10" fill="#ffffff" stroke="#e6e2ef" stroke-width="1.5"/>
+<text x="56" y="416" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">dsh-medrec-qc</text>
+<text x="288" y="416" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" text-anchor="end">0.2.11</text>
+<rect x="44" y="431" width="256" height="30" rx="10" fill="#ffffff" stroke="#e6e2ef" stroke-width="1.5"/>
+<text x="56" y="451" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">dsh-soe-decision-check</text>
+<text x="288" y="451" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" text-anchor="end">0.2.13</text>
+<rect x="44" y="466" width="256" height="30" rx="10" fill="none" stroke="#8f94a4" stroke-width="1.2" stroke-dasharray="6 5"/>
+<text x="56" y="486" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11">+ 45 more · checkers.json</text>
+<rect x="356" y="162" width="360" height="366" rx="20" fill="#ffffff" stroke="#e6e2ef" stroke-width="1.5" filter="url(#soft)"/>
+<text x="376" y="188" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="15" font-weight="700">dsh-check-pack</text>
+<text x="696" y="188" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">0.2.0</text>
+<text x="376" y="207" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11">dsh.bundle.patch → ./cordis.patch.yml</text>
+<line x1="376" y1="216" x2="696" y2="216" stroke="#e7e4f0" stroke-width="1"/>
+<rect x="372" y="224" width="328" height="58" rx="12" fill="#f5f2fb"/>
+<text x="386" y="248" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13" font-weight="700">package.json</text>
+<text x="386" y="268" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11">dependencies · exact versions</text>
+<rect x="656" y="236" width="36" height="26" rx="13" fill="#ece7f9"/>
+<text x="674" y="253" fill="#4B67B4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" font-weight="700" text-anchor="middle">53</text>
+<rect x="372" y="288" width="328" height="58" rx="12" fill="#f5f2fb"/>
+<text x="386" y="312" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13" font-weight="700">cordis.patch.yml</text>
+<text x="386" y="332" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11">- insert · no overwrite</text>
+<rect x="656" y="300" width="36" height="26" rx="13" fill="#ece7f9"/>
+<text x="674" y="317" fill="#4B67B4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" font-weight="700" text-anchor="middle">53</text>
+<rect x="372" y="352" width="328" height="58" rx="12" fill="#f5f2fb"/>
+<text x="386" y="376" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13" font-weight="700">checkers.json</text>
+<text x="386" y="396" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11">id · name · version</text>
+<rect x="656" y="364" width="36" height="26" rx="13" fill="#ece7f9"/>
+<text x="674" y="381" fill="#4B67B4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" font-weight="700" text-anchor="middle">53</text>
+<rect x="372" y="420" width="328" height="98" rx="14" fill="#ece7f9" stroke="#4B67B4" stroke-width="1.5"/>
+<text x="392" y="446" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13" font-weight="700">node verify.mjs</text>
+<text x="392" y="466" fill="#4d5261" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11">rows = deps = entries</text>
+<text x="684" y="446" fill="#15803d" font-family="'Microsoft YaHei','Segoe UI','PingFang SC','Noto Sans CJK SC',sans-serif" font-size="12.5" font-weight="700" text-anchor="end">suite OK</text>
+<text x="684" y="466" fill="#15803d" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">53 / 53 / 53</text>
+<text x="392" y="492" fill="#b45309" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11">≠ 53 → throw</text>
+<text x="684" y="492" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">ci.yml · Node 22</text>
+<rect x="772" y="162" width="284" height="366" rx="20" fill="#ffffff" stroke="#e6e2ef" stroke-width="1.5" filter="url(#soft)"/>
+<text x="792" y="190" fill="#141419" font-family="'Microsoft YaHei','Segoe UI','PingFang SC','Noto Sans CJK SC',sans-serif" font-size="13.5" font-weight="700">Cordis profile</text>
+<rect x="1000" y="174" width="36" height="24" rx="12" fill="#ece7f9"/>
+<text x="1018" y="190" fill="#4B67B4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11.5" font-weight="700" text-anchor="middle">53</text>
+<text x="792" y="208" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11">dsh.bundle.patch · 53 insert</text>
+<rect x="784" y="218" width="260" height="28" rx="8" fill="#f5f2fb"/>
+<rect x="784" y="224" width="4" height="16" rx="2" fill="#4B67B4"/>
+<text x="794" y="237" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">- id: dsh-aqua-input-check</text>
+<text x="1040" y="237" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">insert</text>
+<rect x="784" y="254" width="4" height="16" rx="2" fill="#4B67B4"/>
+<text x="794" y="267" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">- id: dsh-archive-check</text>
+<text x="1040" y="267" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">insert</text>
+<rect x="784" y="278" width="260" height="28" rx="8" fill="#f5f2fb"/>
+<rect x="784" y="284" width="4" height="16" rx="2" fill="#4B67B4"/>
+<text x="794" y="297" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">- id: dsh-bid-ca-precheck</text>
+<text x="1040" y="297" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">insert</text>
+<rect x="784" y="314" width="4" height="16" rx="2" fill="#4B67B4"/>
+<text x="794" y="327" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">- id: dsh-customs-doc-check</text>
+<text x="1040" y="327" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">insert</text>
+<rect x="784" y="338" width="260" height="28" rx="8" fill="#f5f2fb"/>
+<rect x="784" y="344" width="4" height="16" rx="2" fill="#4B67B4"/>
+<text x="794" y="357" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">- id: dsh-hazchem-check</text>
+<text x="1040" y="357" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">insert</text>
+<rect x="784" y="374" width="4" height="16" rx="2" fill="#4B67B4"/>
+<text x="794" y="387" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">- id: dsh-hs-classify</text>
+<text x="1040" y="387" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">insert</text>
+<rect x="784" y="398" width="260" height="28" rx="8" fill="#f5f2fb"/>
+<rect x="784" y="404" width="4" height="16" rx="2" fill="#4B67B4"/>
+<text x="794" y="417" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">- id: dsh-lc-doc-check</text>
+<text x="1040" y="417" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">insert</text>
+<rect x="784" y="434" width="4" height="16" rx="2" fill="#4B67B4"/>
+<text x="794" y="447" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">- id: dsh-medrec-qc</text>
+<text x="1040" y="447" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">insert</text>
+<rect x="784" y="458" width="260" height="28" rx="8" fill="#f5f2fb"/>
+<rect x="784" y="464" width="4" height="16" rx="2" fill="#4B67B4"/>
+<text x="794" y="477" fill="#141419" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="13">- id: dsh-tender-matrix</text>
+<text x="1040" y="477" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">insert</text>
+<text x="792" y="508" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11">+ 44 more rows · all insert</text>
+<path d="M300 201 C330 201 336 305 356 305" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M300 236 C330 236 336 305 356 305" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M300 271 C330 271 336 305 356 305" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M300 306 C330 306 336 305 356 305" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M300 341 C330 341 336 305 356 305" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M300 376 C330 376 336 305 356 305" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M300 411 C330 411 336 305 356 305" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M300 446 C330 446 336 305 356 305" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M716 305 C740 305 748 232 772 232" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M716 305 C740 305 748 262 772 262" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M716 305 C740 305 748 292 772 292" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M716 305 C740 305 748 322 772 322" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M716 305 C740 305 748 352 772 352" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M716 305 C740 305 748 382 772 382" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M716 305 C740 305 748 412 772 412" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M716 305 C740 305 748 442 772 442" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<path d="M716 305 C740 305 748 472 772 472" fill="none" stroke="#4B67B4" stroke-width="1.5" opacity="0.42"/>
+<circle cx="356" cy="305" r="4" fill="#4B67B4" stroke="#ffffff" stroke-width="2"/>
+<circle cx="716" cy="305" r="4" fill="#4B67B4" stroke="#ffffff" stroke-width="2"/>
+<path d="M172 504 L172 574 L1040 574 L1040 542" fill="none" stroke="#4B67B4" stroke-width="1.5" stroke-dasharray="7 6" opacity="0.55" marker-end="url(#arr)"/>
+<circle cx="172" cy="504" r="3" fill="#4B67B4"/>
+<text x="560" y="566" fill="#4d5261" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="middle">nightly 18:00 UTC checks upstream; releases do not drift in — rebuild + republish</text>
+<line x1="44" y1="596" x2="1056" y2="596" stroke="#e7e4f0" stroke-width="1" opacity="0.75"/>
+<text x="44" y="620" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" letter-spacing="0.4">COVERAGE · trade · customs · bids · HSE · medical · legal · government · manufacturing</text>
+<text x="1056" y="620" fill="#8f94a4" font-family="Consolas,'Microsoft YaHei',ui-monospace,monospace" font-size="11" text-anchor="end">Apache-2.0</text>
+</svg>

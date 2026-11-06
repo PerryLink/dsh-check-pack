@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-flow-dark.svg">
-  <img src="docs/assets/dsh-check-pack-flow-light.svg" width="100%" alt="dsh-check-pack 装配流程：dsh plugin add → package.json 的 53 个精确依赖 → cordis.patch.yml 的 53 行 insert → 53 个 dsh-* 核查器 → node verify.mjs 输出 suite OK；checkers.json 是 id/name/version 的唯一事实来源">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-hero-zh-dark.webp">
+  <img src="docs/assets/dsh-check-pack-hero-zh-light.webp" width="100%" alt="dsh-check-pack 横幅：左侧是插件名、两行价值句与页脚；右侧是一条安装命令、三个带精确版本号的真实成员，以及叠成单张 bundle 卡的成员卡组——卡内三份清单 package.json、cordis.patch.yml、checkers.json 各 53 项，标注 capabilities 为空、无运行时代码；右下是 verify 校验章，底部是八个覆盖领域">
 </picture>
 
 # dsh-check-pack
@@ -39,6 +39,11 @@ dsh plugin --profile <name> add dsh-check-pack
 包的依赖列表就是套件成员表——53 个 `dsh-*` 包，版本精确锁定；每个核查器仍保留自己的 npm 名、规则包、README 与版本，升级与配置都在它自己那边完成。本包前身是已弃用的 [`@perrylink/dsh-checkers`](https://www.npmjs.com/package/@perrylink/dsh-checkers)，现已更名为 `dsh-check-pack`，请按新名安装。
 
 核对范围是中国领域文档：外贸、报关、招投标、HSE、医疗、法律、公文、制造。每个核查器只提示材料内部的差异，**不作法律、医疗或海关定性**——结论留给审核人。
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-flow-v5-dark.svg">
+  <img src="docs/assets/dsh-check-pack-flow-v5-light.svg" width="100%" alt="dsh-check-pack 结构图：左侧 8 个带精确版本的成员包收束进中间一张 bundle 卡——package.json 依赖、cordis.patch.yml 的 53 行 insert、checkers.json 的 53 条 id/name/version；下方 node verify.mjs 门禁校验三者计数一致，不等即 throw；右侧展开为 Cordis profile 的 53 行 insert；底部虚线回环说明上游新版不会自动进入已发布包，需重新 build 并发布；页脚列八个覆盖领域">
+</picture>
 
 ## 三步上手
 

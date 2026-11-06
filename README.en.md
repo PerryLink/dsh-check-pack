@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-flow-dark.svg">
-  <img src="docs/assets/dsh-check-pack-flow-light.svg" width="100%" alt="dsh-check-pack install flow: dsh plugin add → 53 exact dependencies in package.json → 53 insert rows in cordis.patch.yml → 53 dsh-* checkers → node verify.mjs prints suite OK; checkers.json is the single source of truth for id/name/version">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-hero-en-dark.webp">
+  <img src="docs/assets/dsh-check-pack-hero-en-light.webp" width="100%" alt="dsh-check-pack banner: left, the plugin name, two value lines and the footer; right, the one-line install command, three real members with their exact versions, and a deck of member cards collapsing into one bundle card listing package.json, cordis.patch.yml and checkers.json at 53 each, with empty capabilities and no runtime code; the verify seal sits at the right and the eight covered domains at the bottom">
 </picture>
 
 # dsh-check-pack
@@ -39,6 +39,11 @@ dsh plugin --profile <name> add dsh-check-pack
 The dependency list is the member list — 53 `dsh-*` packages at exact versions. Each checker keeps its own npm name, rule pack, README, and version; upgrades and configuration happen on its side. This package was formerly the deprecated [`@perrylink/dsh-checkers`](https://www.npmjs.com/package/@perrylink/dsh-checkers); it is now named `dsh-check-pack`, so install it under the new name.
 
 Coverage is China-domain documents: trade, customs, bids, HSE, medical, legal, government, manufacturing. Every checker only reports differences inside the material — **it never makes a legal, medical, or customs determination**. The conclusion stays with the reviewer.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-flow-v5-dark.svg">
+  <img src="docs/assets/dsh-check-pack-flow-v5-light.svg" width="100%" alt="dsh-check-pack structure: eight version-pinned members on the left converge into one bundle card — package.json dependencies, the 53 insert rows of cordis.patch.yml and the 53 id/name/version entries of checkers.json — with node verify.mjs gating that the three counts match and throwing otherwise; on the right the bundle patch expands into 53 insert rows of a Cordis profile; the dashed return says upstream releases do not drift into the published snapshot, so rebuild and republish; the footer lists the eight covered domains">
+</picture>
 
 ## Three-step setup
 

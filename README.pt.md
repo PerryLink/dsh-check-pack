@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-flow-dark.svg">
-  <img src="docs/assets/dsh-check-pack-flow-light.svg" width="100%" alt="Fluxo de instalação do dsh-check-pack: dsh plugin add → 53 dependências exatas no package.json → 53 linhas insert no cordis.patch.yml → 53 verificadores dsh-* → node verify.mjs imprime suite OK; checkers.json é a única fonte de verdade para id/name/version">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-hero-en-dark.webp">
+  <img src="docs/assets/dsh-check-pack-hero-en-light.webp" width="100%" alt="Banner do dsh-check-pack: à esquerda, o nome, duas linhas de valor e o rodapé; à direita, o comando de instalação, três membros reais com a versão exata e uma pilha de cartões que se dobra num único cartão de bundle com package.json, cordis.patch.yml e checkers.json, 53 em cada, capabilities vazio e sem código em tempo de execução; o selo de verificação à direita e os oito domínios cobertos embaixo">
 </picture>
 
 # dsh-check-pack
@@ -39,6 +39,11 @@ dsh plugin --profile <name> add dsh-check-pack
 A lista de dependências é a lista de membros: 53 pacotes `dsh-*` com versões exatas. Cada verificador mantém seu nome npm, seu pacote de regras, seu README e sua versão; atualizações e configuração acontecem do lado dele. Este pacote chamava-se antes [`@perrylink/dsh-checkers`](https://www.npmjs.com/package/@perrylink/dsh-checkers), já obsoleto; agora chama-se `dsh-check-pack`, instale com o nome novo.
 
 O escopo são documentos do domínio chinês: comércio, alfândega, licitações, HSE, medicina, jurídico, governo, manufatura. Cada verificador apenas aponta diferenças dentro do material e **nunca emite uma conclusão jurídica, médica ou aduaneira**; a conclusão fica com o revisor.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-flow-v5-dark.svg">
+  <img src="docs/assets/dsh-check-pack-flow-v5-light.svg" width="100%" alt="Estrutura do dsh-check-pack: oito membros com versão fixa à esquerda convergem num cartão de bundle — dependências do package.json, as 53 linhas insert do cordis.patch.yml e as 53 entradas id/name/version do checkers.json — com o portão node verify.mjs, que lança erro se as três contagens não baterem; à direita o bundle patch expande 53 linhas insert num perfil Cordis; a volta tracejada diz que a versão publicada não acompanha o upstream sozinha: é preciso reconstruir e publicar; o rodapé lista os oito domínios cobertos">
+</picture>
 
 ## Instalação em três passos
 

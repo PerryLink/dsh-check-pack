@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-flow-dark.svg">
-  <img src="docs/assets/dsh-check-pack-flow-light.svg" width="100%" alt="Flujo de instalación de dsh-check-pack: dsh plugin add → 53 dependencias exactas en package.json → 53 filas insert en cordis.patch.yml → 53 comprobadores dsh-* → node verify.mjs imprime suite OK; checkers.json es la única fuente de verdad para id/name/version">
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-hero-en-dark.webp">
+  <img src="docs/assets/dsh-check-pack-hero-en-light.webp" width="100%" alt="Banner de dsh-check-pack: a la izquierda, el nombre, dos líneas de valor y el pie; a la derecha, el comando de instalación, tres miembros reales con su versión exacta y una pila de tarjetas que se pliega en una sola tarjeta de bundle con package.json, cordis.patch.yml y checkers.json, 53 en cada una, capabilities vacío y sin código en tiempo de ejecución; el sello de verificación a la derecha y los ocho ámbitos cubiertos abajo">
 </picture>
 
 # dsh-check-pack
@@ -39,6 +39,11 @@ dsh plugin --profile <name> add dsh-check-pack
 La lista de dependencias es la lista de miembros: 53 paquetes `dsh-*` con versiones exactas. Cada comprobador conserva su nombre npm, su paquete de reglas, su README y su versión; las actualizaciones y la configuración ocurren de su lado. Este paquete se llamaba antes [`@perrylink/dsh-checkers`](https://www.npmjs.com/package/@perrylink/dsh-checkers), ya obsoleto; ahora se llama `dsh-check-pack`, instálalo con el nombre nuevo.
 
 El alcance son documentos del dominio chino: comercio, aduanas, licitaciones, HSE, medicina, legal, administración pública, manufactura. Cada comprobador solo señala diferencias dentro del material y **nunca emite una calificación legal, médica o aduanera**; la conclusión queda en el revisor.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-check-pack-flow-v5-dark.svg">
+  <img src="docs/assets/dsh-check-pack-flow-v5-light.svg" width="100%" alt="Estructura de dsh-check-pack: ocho miembros con versión fija a la izquierda se juntan en una tarjeta de bundle — dependencias de package.json, las 53 filas insert de cordis.patch.yml y las 53 entradas id/name/version de checkers.json — con la puerta node verify.mjs, que lanza error si los tres recuentos no coinciden; a la derecha el bundle patch expande 53 filas insert en un perfil de Cordis; la vuelta discontinua indica que la versión publicada no cambia sola con el upstream: hay que reconstruir y publicar; el pie enumera los ocho ámbitos cubiertos">
+</picture>
 
 ## Instalación en tres pasos
 

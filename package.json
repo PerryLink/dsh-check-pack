@@ -24,10 +24,10 @@
     "cordis.patch.yml",
     "checkers.json",
     "README.md",
-    "README-zh.md",
-    "README-es.md",
-    "README-pt.md",
-    "README-hi.md",
+    "README.en.md",
+    "README.es.md",
+    "README.pt.md",
+    "README.hi.md",
     "LICENSE"
   ],
   "dependencies": {

@@ -47,6 +47,11 @@ Coverage is China-domain documents: trade, customs, bids, HSE, medical, legal, g
 
 ## Three-step setup
 
+
+![dsh-check-pack: real terminal run](docs/assets/dsh-check-pack-demo.gif)
+
+*Animated replay of a real run in this repository (2026-11-21).*
+
 1. **Install** (pick one channel):
 
    ```sh

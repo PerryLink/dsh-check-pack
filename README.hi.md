@@ -45,6 +45,11 @@ dsh plugin --profile <name> add dsh-check-pack
   <img src="docs/assets/dsh-check-pack-flow-v5-light.svg" width="100%" alt="dsh-check-pack संरचना: बाईं ओर सटीक वर्शन वाले आठ सदस्य-पैकेज मध्य के एक bundle कार्ड में सिकुड़ते हैं — package.json की निर्भरताएँ, cordis.patch.yml की 53 insert पंक्तियाँ और checkers.json की 53 id/name/version प्रविष्टियाँ — नीचे node verify.mjs द्वार जाँचता है कि तीनों गिनतियाँ एक हैं, मेल न खाने पर throw; दाईं ओर वही bundle patch Cordis profile की 53 insert पंक्तियों में फैलता है; नीचे की बिंदुदार वापसी बताती है कि प्रकाशित पैकेज अपने आप upstream से नहीं बदलता — दोबारा build और publish करना होता है; पाद में आठ कवर किए गए क्षेत्र हैं">
 </picture>
 
+![dsh-check-pack का असली टर्मिनल रन](docs/assets/dsh-check-pack-demo.gif)
+
+*इस रिपॉज़िटरी के असली रन का एनिमेटेड रीप्ले (2026-11-21)।*
+
+
 ## तीन चरणों में शुरुआत
 
 1. **इंस्टॉल करें** (एक चैनल चुनें):

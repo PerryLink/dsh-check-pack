@@ -45,6 +45,11 @@ O escopo são documentos do domínio chinês: comércio, alfândega, licitaçõe
   <img src="docs/assets/dsh-check-pack-flow-v5-light.svg" width="100%" alt="Estrutura do dsh-check-pack: oito membros com versão fixa à esquerda convergem num cartão de bundle — dependências do package.json, as 53 linhas insert do cordis.patch.yml e as 53 entradas id/name/version do checkers.json — com o portão node verify.mjs, que lança erro se as três contagens não baterem; à direita o bundle patch expande 53 linhas insert num perfil Cordis; a volta tracejada diz que a versão publicada não acompanha o upstream sozinha: é preciso reconstruir e publicar; o rodapé lista os oito domínios cobertos">
 </picture>
 
+![dsh-check-pack: execução real de terminal](docs/assets/dsh-check-pack-demo.gif)
+
+*Repetição animada de uma execução real deste repositório (2026-11-21).*
+
+
 ## Instalação em três passos
 
 1. **Instalar** (escolha um canal):

@@ -47,6 +47,11 @@ dsh plugin --profile <name> add dsh-check-pack
 
 ## 三步上手
 
+
+![dsh-check-pack 真实终端运行](docs/assets/dsh-check-pack-demo.gif)
+
+*本仓库真实运行的动图回放（2026-11-21）。*
+
 1. **安装**（三选一）：
 
    ```sh

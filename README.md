@@ -11,6 +11,8 @@
 
 面向中国领域文档核对（外贸、报关、招投标、HSE、医疗、法律、公文、制造）的套件入口：每个核查器保留自己的 npm 名、规则包和版本，本包只负责把它们一起装进来。
 
+最近一次核验：DeepSeek Harness `dsh-v0.2.3-alpha.1`（2026-11-22）。
+
 [安装](#三步上手) · [配置](#配置) · [FAQ](#faq) · [简体中文](README.md) · [English](README.en.md) · [Español](README.es.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-3366CC?style=flat-square&labelColor=2B3245)](LICENSE)
@@ -46,7 +48,6 @@ dsh plugin --profile <name> add dsh-check-pack
 </picture>
 
 ## 三步上手
-
 
 ![dsh-check-pack 真实终端运行](docs/assets/dsh-check-pack-demo.gif)
 
@@ -179,7 +180,7 @@ dsh plugin --profile <name> add dsh-check-pack
 <details>
 <summary>npm 上装不到最新版本？</summary>
 
-按本仓记录，npm 会在发布新版本时走 2FA 暂存审批；审批落地前，用 git 通道安装最新 main：`dsh plugin --profile web add github:PerryLink/dsh-check-pack`。当前 npm 上的版本是 `0.2.0`，可用 `npm view dsh-check-pack version` 核对。
+按本仓记录，npm 会在发布新版本时走 2FA 暂存审批；审批落地前，用 git 通道安装最新 main：`dsh plugin --profile web add github:PerryLink/dsh-check-pack`。当前 npm 上的版本是 `0.2.1`，可用 `npm view dsh-check-pack version` 核对。
 
 </details>
 
@@ -235,7 +236,7 @@ dsh plugin --profile <name> add dsh-check-pack
 | Node | `^22.19.0 \|\| >=24.0.0` |
 | 平台 | 任何 DSH 可运行处（本包无原生代码、无网络请求） |
 | 包名 | `dsh-check-pack`（npm）；前身 `@perrylink/dsh-checkers` 已弃用 |
-| npm 版本 | `0.2.0` |
+| npm 版本 | `0.2.1` |
 
 ## 生态与质量
 

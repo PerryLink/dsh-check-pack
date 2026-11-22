@@ -11,6 +11,8 @@
 
 चीनी दस्तावेज़ जाँच (व्यापार, सीमा शुल्क, निविदा, HSE, चिकित्सा, कानून, सरकार, विनिर्माण) के लिए सूट प्रवेश बिंदु: हर जाँचकर्ता अपना npm नाम, नियम पैक और संस्करण रखता है; यह पैकेज केवल उन्हें साथ लाता है।
 
+अंतिम सत्यापन: DeepSeek Harness `dsh-v0.2.3-alpha.1` (2026-11-22).
+
 [इंस्टॉल](#तीन-चरणों-में-शुरुआत) · [कॉन्फ़िगरेशन](#कॉन्फ़िगरेशन) · [FAQ](#faq) · [简体中文](README.md) · [English](README.en.md) · [Español](README.es.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-3366CC?style=flat-square&labelColor=2B3245)](LICENSE)
@@ -48,7 +50,6 @@ dsh plugin --profile <name> add dsh-check-pack
 ![dsh-check-pack का असली टर्मिनल रन](docs/assets/dsh-check-pack-demo.gif)
 
 *इस रिपॉज़िटरी के असली रन का एनिमेटेड रीप्ले (2026-11-21)।*
-
 
 ## तीन चरणों में शुरुआत
 
@@ -179,7 +180,7 @@ dsh plugin --profile <name> add dsh-check-pack
 <details>
 <summary>npm मुझे नवीनतम संस्करण क्यों नहीं देता?</summary>
 
-इस रेपो के रिकॉर्ड के अनुसार, npm नई संस्करणों को 2FA स्वीकृति के लिए रोकता है। वह स्वीकृति आने तक git चैनल इस्तेमाल करें: `dsh plugin --profile web add github:PerryLink/dsh-check-pack`। अभी npm पर संस्करण `0.2.0` है; `npm view dsh-check-pack version` से जाँचें।
+इस रेपो के रिकॉर्ड के अनुसार, npm नई संस्करणों को 2FA स्वीकृति के लिए रोकता है। वह स्वीकृति आने तक git चैनल इस्तेमाल करें: `dsh plugin --profile web add github:PerryLink/dsh-check-pack`। अभी npm पर संस्करण `0.2.1` है; `npm view dsh-check-pack version` से जाँचें।
 
 </details>
 
@@ -235,7 +236,7 @@ upstream से अपने आप कोई बदलाव नहीं आ�
 | Node | `^22.19.0 \|\| >=24.0.0` |
 | प्लेटफ़ॉर्म | जहाँ DSH चलता है (कोई नेटिव कोड नहीं, कोई नेटवर्क अनुरोध नहीं) |
 | पैकेज नाम | npm पर `dsh-check-pack`; पुराना `@perrylink/dsh-checkers` अप्रचलित है |
-| npm संस्करण | `0.2.0` |
+| npm संस्करण | `0.2.1` |
 
 ## इकोसिस्टम और गुणवत्ता
 

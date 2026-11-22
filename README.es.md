@@ -11,6 +11,8 @@
 
 El punto de entrada de la suite para comprobaciones documentales del dominio chino (comercio, aduanas, licitaciones, HSE, medicina, legal, administración pública, manufactura): cada comprobador conserva su nombre npm, su paquete de reglas y su versión; este paquete solo los trae juntos.
 
+Última verificación: DeepSeek Harness `dsh-v0.2.3-alpha.1` (2026-11-22).
+
 [Instalar](#instalación-en-tres-pasos) · [Configuración](#configuración) · [FAQ](#faq) · [简体中文](README.md) · [English](README.en.md) · [Español](README.es.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-3366CC?style=flat-square&labelColor=2B3245)](LICENSE)
@@ -48,7 +50,6 @@ El alcance son documentos del dominio chino: comercio, aduanas, licitaciones, HS
 ![dsh-check-pack: ejecución real de terminal](docs/assets/dsh-check-pack-demo.gif)
 
 *Repetición animada de una ejecución real de este repositorio (2026-11-21).*
-
 
 ## Instalación en tres pasos
 
@@ -179,7 +180,7 @@ No. Los 53 paquetes son dependencias de `dsh-check-pack`, se resuelven al instal
 <details>
 <summary>¿Por qué npm no me da la última versión?</summary>
 
-Según el registro de este repositorio, npm deja las versiones nuevas en aprobación 2FA. Hasta que esa aprobación llegue, usa el canal git: `dsh plugin --profile web add github:PerryLink/dsh-check-pack`. La versión que está ahora en npm es `0.2.0`; compruébalo con `npm view dsh-check-pack version`.
+Según el registro de este repositorio, npm deja las versiones nuevas en aprobación 2FA. Hasta que esa aprobación llegue, usa el canal git: `dsh plugin --profile web add github:PerryLink/dsh-check-pack`. La versión que está ahora en npm es `0.2.1`; compruébalo con `npm view dsh-check-pack version`.
 
 </details>
 
@@ -235,7 +236,7 @@ No hay desviación automática desde el upstream. Un `dsh-check-pack` publicado 
 | Node | `^22.19.0 \|\| >=24.0.0` |
 | Plataformas | Donde corra DSH (sin código nativo, sin peticiones de red) |
 | Nombre del paquete | `dsh-check-pack` en npm; el anterior `@perrylink/dsh-checkers` está obsoleto |
-| Versión npm | `0.2.0` |
+| Versión npm | `0.2.1` |
 
 ## Ecosistema y calidad
 

@@ -11,6 +11,8 @@
 
 The suite entry point for China-domain document checks (trade, customs, bids, HSE, medical, legal, government, manufacturing): every checker keeps its own npm name, rule pack, and version; this package only brings them in together.
 
+Last verified on DeepSeek Harness `dsh-v0.2.3-alpha.1` (2026-11-22).
+
 [Install](#three-step-setup) · [Configuration](#configuration) · [FAQ](#faq) · [简体中文](README.md) · [English](README.en.md) · [Español](README.es.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-3366CC?style=flat-square&labelColor=2B3245)](LICENSE)
@@ -46,7 +48,6 @@ Coverage is China-domain documents: trade, customs, bids, HSE, medical, legal, g
 </picture>
 
 ## Three-step setup
-
 
 ![dsh-check-pack: real terminal run](docs/assets/dsh-check-pack-demo.gif)
 
@@ -179,7 +180,7 @@ No. All 53 packages are dependencies of `dsh-check-pack`, resolved at install ti
 <details>
 <summary>Why can't npm give me the latest version?</summary>
 
-Per this repository's record, npm stages new versions for 2FA approval. Until that approval lands, use the git channel: `dsh plugin --profile web add github:PerryLink/dsh-check-pack`. The version currently on npm is `0.2.0`; check with `npm view dsh-check-pack version`.
+Per this repository's record, npm stages new versions for 2FA approval. Until that approval lands, use the git channel: `dsh plugin --profile web add github:PerryLink/dsh-check-pack`. The version currently on npm is `0.2.1`; check with `npm view dsh-check-pack version`.
 
 </details>
 
@@ -235,7 +236,7 @@ No automatic drift from upstream. A published `dsh-check-pack` pins the 53 versi
 | Node | `^22.19.0 \|\| >=24.0.0` |
 | Platforms | Anywhere DSH runs (no native code, no network requests) |
 | Package name | `dsh-check-pack` on npm; the former `@perrylink/dsh-checkers` is deprecated |
-| npm version | `0.2.0` |
+| npm version | `0.2.1` |
 
 ## Ecosystem & quality
 

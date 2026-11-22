@@ -11,6 +11,8 @@
 
 O ponto de entrada da suíte para verificações documentais do domínio chinês (comércio, alfândega, licitações, HSE, medicina, jurídico, governo, manufatura): cada verificador mantém seu nome npm, seu pacote de regras e sua versão; este pacote apenas os traz juntos.
 
+Última verificação: DeepSeek Harness `dsh-v0.2.3-alpha.1` (2026-11-22).
+
 [Instalar](#instalação-em-três-passos) · [Configuração](#configuração) · [FAQ](#faq) · [简体中文](README.md) · [English](README.en.md) · [Español](README.es.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-3366CC?style=flat-square&labelColor=2B3245)](LICENSE)
@@ -48,7 +50,6 @@ O escopo são documentos do domínio chinês: comércio, alfândega, licitaçõe
 ![dsh-check-pack: execução real de terminal](docs/assets/dsh-check-pack-demo.gif)
 
 *Repetição animada de uma execução real deste repositório (2026-11-21).*
-
 
 ## Instalação em três passos
 
@@ -179,7 +180,7 @@ Não. Os 53 pacotes são dependências do `dsh-check-pack`, resolvidos na instal
 <details>
 <summary>Por que o npm não me dá a versão mais recente?</summary>
 
-Segundo o registro deste repositório, o npm deixa as versões novas em aprovação 2FA. Até essa aprovação sair, use o canal git: `dsh plugin --profile web add github:PerryLink/dsh-check-pack`. A versão que está no npm agora é `0.2.0`; confira com `npm view dsh-check-pack version`.
+Segundo o registro deste repositório, o npm deixa as versões novas em aprovação 2FA. Até essa aprovação sair, use o canal git: `dsh plugin --profile web add github:PerryLink/dsh-check-pack`. A versão que está no npm agora é `0.2.1`; confira com `npm view dsh-check-pack version`.
 
 </details>
 
@@ -235,7 +236,7 @@ Não há divergência automática do upstream. Um `dsh-check-pack` publicado fix
 | Node | `^22.19.0 \|\| >=24.0.0` |
 | Plataformas | Onde o DSH rodar (sem código nativo, sem requisições de rede) |
 | Nome do pacote | `dsh-check-pack` no npm; o anterior `@perrylink/dsh-checkers` está obsoleto |
-| Versão npm | `0.2.0` |
+| Versão npm | `0.2.1` |
 
 ## Ecossistema e qualidade
 

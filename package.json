@@ -1,6 +1,6 @@
 {
   "name": "dsh-check-pack",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "One-command installer for the 53-checker PerryLink compliance suite: installs every checker and inserts all 53 Cordis rows in one bundle layer.",
   "license": "Apache-2.0",
   "repository": {
@@ -29,7 +29,9 @@
     "README.pt.md",
     "README.hi.md",
     "docs/assets/*",
-    "LICENSE"
+    "LICENSE",
+    "locale/*.json",
+    "icon.png"
   ],
   "dependencies": {
     "dsh-aqua-input-check": "0.2.11",
@@ -93,5 +95,10 @@
   "homepage": "https://github.com/PerryLink/dsh-check-pack#readme",
   "bugs": {
     "url": "https://github.com/PerryLink/dsh-check-pack/issues"
+  },
+  "icon": "icon.png",
+  "author": {
+    "name": "PerryLink",
+    "url": "https://github.com/PerryLink"
   }
 }

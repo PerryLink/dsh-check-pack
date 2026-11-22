@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Check Pack",
+    "description": "The suite entry point for China-domain document checks (trade, customs, bids, HSE, medical, legal, government, manufacturing): every checker keeps its own npm name, rule pack, and version; this package only brings them in together."
+  }
+}

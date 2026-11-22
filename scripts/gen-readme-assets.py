@@ -344,7 +344,7 @@ def hero(lang: str, skin: str, versions: dict[str, str]) -> None:
            fill=hx(s["accent"]), anchor="ls")
     d.text((692, 336), NAME, font=font(34, "mono_bold"), fill=hx(s["text"]),
            anchor="ls")
-    d.text((1200, 336), "0.2.2", font=font(14, "mono"), fill=hx(s["faint"]),
+    d.text((1200, 336), "0.2.3", font=font(14, "mono"), fill=hx(s["faint"]),
            anchor="rs")
     d.line([692, 352, 1200, 352], fill=hx(s["grid"]), width=2)
 
@@ -531,7 +531,7 @@ def flow_svg(skin: str, versions: dict[str, str]) -> str:
     # ---- waist: three manifests + verify gate ------------------------------
     rect(356, 162, 716, 528, s["card"], rx=20, stroke=s["edge"], shadow=True)
     text(376, 188, NAME, 15, s["text"], "mono", "700")
-    text(696, 188, "0.2.2", 11, s["faint"], "mono", anchor="end")
+    text(696, 188, "0.2.3", 11, s["faint"], "mono", anchor="end")
     text(376, 207, "dsh.bundle.patch → ./cordis.patch.yml", 11, s["faint"],
          "mono")
     line(376, 216, 696, 216, s["grid"], 1)

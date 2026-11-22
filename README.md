@@ -16,7 +16,7 @@
 [安装](#三步上手) · [配置](#配置) · [FAQ](#faq) · [简体中文](README.md) · [English](README.en.md) · [Español](README.es.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-3366CC?style=flat-square&labelColor=2B3245)](LICENSE)
-[![DSH](https://img.shields.io/badge/DSH-%E2%89%A50.2.1%20%3C0.3.0-4B67B4?style=flat-square&labelColor=2B3245)](#兼容性)
+[![DSH](https://img.shields.io/badge/DSH-%E2%89%A50.2.2%20%3C0.3.0-4B67B4?style=flat-square&labelColor=2B3245)](#兼容性)
 [![npm](https://img.shields.io/npm/v/dsh-check-pack?style=flat-square&labelColor=2B3245&color=CB3837)](https://www.npmjs.com/package/dsh-check-pack)
 [![CI](https://img.shields.io/github/actions/workflow/status/PerryLink/dsh-check-pack/ci.yml?branch=main&label=CI&style=flat-square&labelColor=2B3245)](https://github.com/PerryLink/dsh-check-pack/actions/workflows/ci.yml)
 [![Node](https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-339933?style=flat-square&labelColor=2B3245)](#兼容性)
@@ -103,7 +103,7 @@ dsh plugin --profile <name> add dsh-check-pack
 | `dsh.manifestVersion` | `1` | bundle manifest 版本 |
 | `dsh.bundle.patch` | `./cordis.patch.yml` | 安装时应用的 bundle 补丁 |
 | `dsh.capabilities` | `[]` | 不向宿主申请任何能力 |
-| `engines.dsh` | `>=0.2.1-0 <0.3.0` | 运行时区间 |
+| `engines.dsh` | `>=0.2.2-0 <0.3.0` | 运行时区间 |
 | `engines.node` | `^22.19.0 \|\| >=24.0.0` | Node 区间 |
 | `dependencies` | 53 个精确版本 | 套件成员与锁定版本 |
 
@@ -112,10 +112,10 @@ dsh plugin --profile <name> add dsh-check-pack
 
 | 包 | 版本 |
 |---|---|
-| `dsh-aqua-input-check` | `0.2.11` |
+| `dsh-aqua-input-check` | `0.2.21` |
 | `dsh-archive-check` | `0.2.9` |
-| `dsh-bid-ca-precheck` | `0.2.11` |
-| `dsh-bid-qual-check` | `0.2.10` |
+| `dsh-bid-ca-precheck` | `0.2.21` |
+| `dsh-bid-qual-check` | `0.2.20` |
 | `dsh-contract-stance` | `0.2.9` |
 | `dsh-customs-doc-check` | `0.2.8` |
 | `dsh-demurrage-ledger` | `0.2.9` |
@@ -123,48 +123,48 @@ dsh plugin --profile <name> add dsh-check-pack
 | `dsh-eia-guide-check` | `0.2.9` |
 | `dsh-emergency-plan` | `0.2.8` |
 | `dsh-essay-rubric-check` | `0.2.8` |
-| `dsh-evidence-check` | `0.2.11` |
-| `dsh-export-ctl-check` | `0.2.11` |
+| `dsh-evidence-check` | `0.2.21` |
+| `dsh-export-ctl-check` | `0.2.21` |
 | `dsh-fmea-table-check` | `0.2.8` |
 | `dsh-forecast-penalty` | `0.2.8` |
 | `dsh-gongwen-flow-check` | `0.2.9` |
-| `dsh-gongwen-word-check` | `0.2.10` |
+| `dsh-gongwen-word-check` | `0.2.20` |
 | `dsh-guard-plan-qc` | `0.2.8` |
-| `dsh-hazchem-check` | `0.2.11` |
-| `dsh-hazplan-check` | `0.2.10` |
+| `dsh-hazchem-check` | `0.2.21` |
+| `dsh-hazplan-check` | `0.2.20` |
 | `dsh-hidden-risk-map` | `0.2.8` |
-| `dsh-hs-classify` | `0.2.10` |
-| `dsh-icd-rule-check` | `0.2.10` |
-| `dsh-lawcite-adapter` | `0.2.10` |
+| `dsh-hs-classify` | `0.2.20` |
+| `dsh-icd-rule-check` | `0.2.20` |
+| `dsh-lawcite-adapter` | `0.2.20` |
 | `dsh-lc-doc-check` | `0.2.9` |
 | `dsh-learning-gap-check` | `0.2.8` |
-| `dsh-medrec-qc` | `0.2.11` |
-| `dsh-nsfc-form-check` | `0.2.10` |
-| `dsh-nurse-record-check` | `0.2.10` |
+| `dsh-medrec-qc` | `0.2.21` |
+| `dsh-nsfc-form-check` | `0.2.20` |
+| `dsh-nurse-record-check` | `0.2.20` |
 | `dsh-origin-rvc-check` | `0.2.9` |
-| `dsh-ota-review-check` | `0.2.10` |
+| `dsh-ota-review-check` | `0.2.20` |
 | `dsh-paper-doc-adapter` | `0.2.8` |
-| `dsh-permit-report-check` | `0.2.10` |
+| `dsh-permit-report-check` | `0.2.20` |
 | `dsh-pipeline-check` | `0.2.8` |
-| `dsh-pleading-draft` | `0.2.10` |
-| `dsh-policy-brief-draft` | `0.2.10` |
+| `dsh-pleading-draft` | `0.2.20` |
+| `dsh-policy-brief-draft` | `0.2.20` |
 | `dsh-power-loss-split` | `0.2.9` |
 | `dsh-power-ticket-check` | `0.2.9` |
 | `dsh-ppap-check` | `0.2.8` |
-| `dsh-protest-deadline` | `0.2.10` |
+| `dsh-protest-deadline` | `0.2.20` |
 | `dsh-railway-window` | `0.2.8` |
-| `dsh-repair-order-qc` | `0.2.10` |
+| `dsh-repair-order-qc` | `0.2.20` |
 | `dsh-review-reply-check` | `0.2.8` |
 | `dsh-rulefile-check` | `0.2.8` |
 | `dsh-safety-brief-check` | `0.2.9` |
-| `dsh-site-log-check` | `0.2.11` |
-| `dsh-soe-decision-check` | `0.2.13` |
+| `dsh-site-log-check` | `0.2.21` |
+| `dsh-soe-decision-check` | `0.2.23` |
 | `dsh-soilwater-check` | `0.2.8` |
 | `dsh-sop-sync-check` | `0.2.8` |
 | `dsh-spc-gbt-adapter` | `0.2.8` |
-| `dsh-tender-extract` | `0.2.11` |
-| `dsh-tender-matrix` | `0.2.12` |
-| `dsh-warranty-calc` | `0.2.10` |
+| `dsh-tender-extract` | `0.2.21` |
+| `dsh-tender-matrix` | `0.2.22` |
+| `dsh-warranty-calc` | `0.2.20` |
 
 </details>
 
@@ -180,7 +180,7 @@ dsh plugin --profile <name> add dsh-check-pack
 <details>
 <summary>npm 上装不到最新版本？</summary>
 
-按本仓记录，npm 会在发布新版本时走 2FA 暂存审批；审批落地前，用 git 通道安装最新 main：`dsh plugin --profile web add github:PerryLink/dsh-check-pack`。当前 npm 上的版本是 `0.2.1`，可用 `npm view dsh-check-pack version` 核对。
+按本仓记录，npm 会在发布新版本时走 2FA 暂存审批；审批落地前，用 git 通道安装最新 main：`dsh plugin --profile web add github:PerryLink/dsh-check-pack`。当前 npm 上的版本是 `0.2.2`，可用 `npm view dsh-check-pack version` 核对。
 
 </details>
 
@@ -232,11 +232,11 @@ dsh plugin --profile <name> add dsh-check-pack
 
 | 维度 | 状态 |
 |---|---|
-| Harness | DSH `>=0.2.1-0 <0.3.0`（`engines.dsh`）；bundle manifest 版本 `1` |
+| Harness | DSH `>=0.2.2-0 <0.3.0`（`engines.dsh`）；bundle manifest 版本 `1` |
 | Node | `^22.19.0 \|\| >=24.0.0` |
 | 平台 | 任何 DSH 可运行处（本包无原生代码、无网络请求） |
 | 包名 | `dsh-check-pack`（npm）；前身 `@perrylink/dsh-checkers` 已弃用 |
-| npm 版本 | `0.2.1` |
+| npm 版本 | `0.2.2` |
 
 ## 生态与质量
 

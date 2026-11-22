@@ -1,6 +1,6 @@
 {
   "name": "dsh-check-pack",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "One-command installer for the 53-checker PerryLink compliance suite: installs every checker and inserts all 53 Cordis rows in one bundle layer.",
   "license": "Apache-2.0",
   "repository": {

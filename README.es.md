@@ -16,7 +16,7 @@ El punto de entrada de la suite para comprobaciones documentales del dominio chi
 [Instalar](#instalación-en-tres-pasos) · [Configuración](#configuración) · [FAQ](#faq) · [简体中文](README.md) · [English](README.en.md) · [Español](README.es.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-3366CC?style=flat-square&labelColor=2B3245)](LICENSE)
-[![DSH](https://img.shields.io/badge/DSH-%E2%89%A50.2.1%20%3C0.3.0-4B67B4?style=flat-square&labelColor=2B3245)](#compatibilidad)
+[![DSH](https://img.shields.io/badge/DSH-%E2%89%A50.2.2%20%3C0.3.0-4B67B4?style=flat-square&labelColor=2B3245)](#compatibilidad)
 [![npm](https://img.shields.io/npm/v/dsh-check-pack?style=flat-square&labelColor=2B3245&color=CB3837)](https://www.npmjs.com/package/dsh-check-pack)
 [![CI](https://img.shields.io/github/actions/workflow/status/PerryLink/dsh-check-pack/ci.yml?branch=main&label=CI&style=flat-square&labelColor=2B3245)](https://github.com/PerryLink/dsh-check-pack/actions/workflows/ci.yml)
 [![Node](https://img.shields.io/badge/node-%5E22.19%20%7C%7C%20%3E%3D24-339933?style=flat-square&labelColor=2B3245)](#compatibilidad)
@@ -103,7 +103,7 @@ Campos del manifiesto de este paquete:
 | `dsh.manifestVersion` | `1` | versión del manifiesto de bundle |
 | `dsh.bundle.patch` | `./cordis.patch.yml` | parche de bundle aplicado al instalar |
 | `dsh.capabilities` | `[]` | no solicita ninguna capacidad del host |
-| `engines.dsh` | `>=0.2.1-0 <0.3.0` | rango del runtime |
+| `engines.dsh` | `>=0.2.2-0 <0.3.0` | rango del runtime |
 | `engines.node` | `^22.19.0 \|\| >=24.0.0` | rango de Node |
 | `dependencies` | 53 versiones exactas | miembros de la suite y versiones fijadas |
 
@@ -112,10 +112,10 @@ Campos del manifiesto de este paquete:
 
 | Paquete | Versión |
 |---|---|
-| `dsh-aqua-input-check` | `0.2.11` |
+| `dsh-aqua-input-check` | `0.2.21` |
 | `dsh-archive-check` | `0.2.9` |
-| `dsh-bid-ca-precheck` | `0.2.11` |
-| `dsh-bid-qual-check` | `0.2.10` |
+| `dsh-bid-ca-precheck` | `0.2.21` |
+| `dsh-bid-qual-check` | `0.2.20` |
 | `dsh-contract-stance` | `0.2.9` |
 | `dsh-customs-doc-check` | `0.2.8` |
 | `dsh-demurrage-ledger` | `0.2.9` |
@@ -123,48 +123,48 @@ Campos del manifiesto de este paquete:
 | `dsh-eia-guide-check` | `0.2.9` |
 | `dsh-emergency-plan` | `0.2.8` |
 | `dsh-essay-rubric-check` | `0.2.8` |
-| `dsh-evidence-check` | `0.2.11` |
-| `dsh-export-ctl-check` | `0.2.11` |
+| `dsh-evidence-check` | `0.2.21` |
+| `dsh-export-ctl-check` | `0.2.21` |
 | `dsh-fmea-table-check` | `0.2.8` |
 | `dsh-forecast-penalty` | `0.2.8` |
 | `dsh-gongwen-flow-check` | `0.2.9` |
-| `dsh-gongwen-word-check` | `0.2.10` |
+| `dsh-gongwen-word-check` | `0.2.20` |
 | `dsh-guard-plan-qc` | `0.2.8` |
-| `dsh-hazchem-check` | `0.2.11` |
-| `dsh-hazplan-check` | `0.2.10` |
+| `dsh-hazchem-check` | `0.2.21` |
+| `dsh-hazplan-check` | `0.2.20` |
 | `dsh-hidden-risk-map` | `0.2.8` |
-| `dsh-hs-classify` | `0.2.10` |
-| `dsh-icd-rule-check` | `0.2.10` |
-| `dsh-lawcite-adapter` | `0.2.10` |
+| `dsh-hs-classify` | `0.2.20` |
+| `dsh-icd-rule-check` | `0.2.20` |
+| `dsh-lawcite-adapter` | `0.2.20` |
 | `dsh-lc-doc-check` | `0.2.9` |
 | `dsh-learning-gap-check` | `0.2.8` |
-| `dsh-medrec-qc` | `0.2.11` |
-| `dsh-nsfc-form-check` | `0.2.10` |
-| `dsh-nurse-record-check` | `0.2.10` |
+| `dsh-medrec-qc` | `0.2.21` |
+| `dsh-nsfc-form-check` | `0.2.20` |
+| `dsh-nurse-record-check` | `0.2.20` |
 | `dsh-origin-rvc-check` | `0.2.9` |
-| `dsh-ota-review-check` | `0.2.10` |
+| `dsh-ota-review-check` | `0.2.20` |
 | `dsh-paper-doc-adapter` | `0.2.8` |
-| `dsh-permit-report-check` | `0.2.10` |
+| `dsh-permit-report-check` | `0.2.20` |
 | `dsh-pipeline-check` | `0.2.8` |
-| `dsh-pleading-draft` | `0.2.10` |
-| `dsh-policy-brief-draft` | `0.2.10` |
+| `dsh-pleading-draft` | `0.2.20` |
+| `dsh-policy-brief-draft` | `0.2.20` |
 | `dsh-power-loss-split` | `0.2.9` |
 | `dsh-power-ticket-check` | `0.2.9` |
 | `dsh-ppap-check` | `0.2.8` |
-| `dsh-protest-deadline` | `0.2.10` |
+| `dsh-protest-deadline` | `0.2.20` |
 | `dsh-railway-window` | `0.2.8` |
-| `dsh-repair-order-qc` | `0.2.10` |
+| `dsh-repair-order-qc` | `0.2.20` |
 | `dsh-review-reply-check` | `0.2.8` |
 | `dsh-rulefile-check` | `0.2.8` |
 | `dsh-safety-brief-check` | `0.2.9` |
-| `dsh-site-log-check` | `0.2.11` |
-| `dsh-soe-decision-check` | `0.2.13` |
+| `dsh-site-log-check` | `0.2.21` |
+| `dsh-soe-decision-check` | `0.2.23` |
 | `dsh-soilwater-check` | `0.2.8` |
 | `dsh-sop-sync-check` | `0.2.8` |
 | `dsh-spc-gbt-adapter` | `0.2.8` |
-| `dsh-tender-extract` | `0.2.11` |
-| `dsh-tender-matrix` | `0.2.12` |
-| `dsh-warranty-calc` | `0.2.10` |
+| `dsh-tender-extract` | `0.2.21` |
+| `dsh-tender-matrix` | `0.2.22` |
+| `dsh-warranty-calc` | `0.2.20` |
 
 </details>
 
@@ -180,7 +180,7 @@ No. Los 53 paquetes son dependencias de `dsh-check-pack`, se resuelven al instal
 <details>
 <summary>¿Por qué npm no me da la última versión?</summary>
 
-Según el registro de este repositorio, npm deja las versiones nuevas en aprobación 2FA. Hasta que esa aprobación llegue, usa el canal git: `dsh plugin --profile web add github:PerryLink/dsh-check-pack`. La versión que está ahora en npm es `0.2.1`; compruébalo con `npm view dsh-check-pack version`.
+Según el registro de este repositorio, npm deja las versiones nuevas en aprobación 2FA. Hasta que esa aprobación llegue, usa el canal git: `dsh plugin --profile web add github:PerryLink/dsh-check-pack`. La versión que está ahora en npm es `0.2.2`; compruébalo con `npm view dsh-check-pack version`.
 
 </details>
 
@@ -232,11 +232,11 @@ No hay desviación automática desde el upstream. Un `dsh-check-pack` publicado 
 
 | Dimensión | Estado |
 |---|---|
-| Harness | DSH `>=0.2.1-0 <0.3.0` (`engines.dsh`); versión del manifiesto de bundle `1` |
+| Harness | DSH `>=0.2.2-0 <0.3.0` (`engines.dsh`); versión del manifiesto de bundle `1` |
 | Node | `^22.19.0 \|\| >=24.0.0` |
 | Plataformas | Donde corra DSH (sin código nativo, sin peticiones de red) |
 | Nombre del paquete | `dsh-check-pack` en npm; el anterior `@perrylink/dsh-checkers` está obsoleto |
-| Versión npm | `0.2.1` |
+| Versión npm | `0.2.2` |
 
 ## Ecosistema y calidad
 
